@@ -1,0 +1,22 @@
+@media (max-width: 991px) and (min-width: 768px) {
+    .header .contact p > span,
+    .header .contact p > a{
+        font-size: 10px;
+    }
+}
+@media (max-width: 767px) {
+    .name{
+        text-align: center;
+    }
+    .contact{
+        padding: 15px 0 0 30px;
+    }
+    .header .contact::before {
+        height: 70%;
+        left: -3px;
+    }
+    .header .name img {
+        width: 40%;
+        border-radius: 50%;
+    }
+}

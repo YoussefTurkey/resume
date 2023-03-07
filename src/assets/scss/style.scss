@@ -1,0 +1,16 @@
+// Importing global scss files
+@use './global/colors';
+@use './global/rest';
+@use './global/print';
+// Importing Scss files
+    // ---- Importing header scss file ----
+@import './components/headerPage/header';
+@import './components/headerPage/mediaHeader';
+    // ---- Importing sidebar scss file ----
+@import './components/sidebarPage/sidebar';
+@import './components/sidebarPage/mediaSidebar';
+    // ---- Importing content scss file ----
+@import './components/contentPage/content';
+@import './components/contentPage/mediaContent';
+    // ---- Importing download button scss file ----
+@import './components/downloadBtn';

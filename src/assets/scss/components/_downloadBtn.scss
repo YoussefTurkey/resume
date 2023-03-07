@@ -1,0 +1,15 @@
+.download{
+    background-color: colors.$main_color;
+    color: colors.$bg_color;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    &:hover{
+        background-color: colors.$bg_color;
+        color: colors.$main_color;
+    }
+}

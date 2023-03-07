@@ -1,0 +1,57 @@
+.header{
+    background-color: colors.$main_color;
+    color: colors.$bg_color;
+    padding: 15px;
+
+    .name{
+        display: flex;
+        align-items: center;
+        
+        img{
+            width: 20%;
+            padding: 0;
+        }
+
+        .fullName{
+            padding-left: 15px;
+
+            h3{
+                font-size: 16px;
+                font-weight: lighter;
+                letter-spacing: 5px;
+            }
+        }
+    }
+
+    .contact{
+        position: relative;
+        &::before{
+            content: '';
+            width: 2.5px;
+            height: 50%;
+            background-color: colors.$bg_color;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -15px;
+            border-radius: 15px;
+        }
+
+        p{
+            > i{
+                background-color: colors.$bg_color;
+                color: colors.$main_color;
+                padding: 5px;
+                font-size: 10px;
+                border-radius: 50%;
+            }
+
+            > span,
+            > a{
+                padding-left: 15px;
+                font-size: 18px;
+                color: colors.$bg_color;
+            }
+        }
+    }
+}

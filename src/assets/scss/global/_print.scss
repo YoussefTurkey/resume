@@ -46,6 +46,10 @@
         .view{
             display: none !important;
         }
+
+        .content .cel .celProject .project{
+            flex-direction: row;
+        }
     }
     #downlaod{
         display: none !important;

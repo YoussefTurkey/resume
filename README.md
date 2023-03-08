@@ -12,6 +12,7 @@ No latency, responsivable, simple UI.
 * SCSS
 * JS
 * JSX
+* JSON
 * Bootstrap
 * jQuery
 * React.js as framework

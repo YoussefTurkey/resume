@@ -26,12 +26,12 @@ const Content = () => {
 
             <h4 className='techTit'>Technologies:</h4>
             <ul className='technologies'>
-              <li>- {personal[0].Turkey.contentInfo.projects.firstProject[4][0]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.firstProject[4][1]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.firstProject[4][2]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.firstProject[4][3]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.firstProject[4][4]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.firstProject[4][5]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.firstProject[4][0]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.firstProject[4][1]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.firstProject[4][2]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.firstProject[4][3]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.firstProject[4][4]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.firstProject[4][5]}</li>
             </ul>
           </div>
 
@@ -49,9 +49,9 @@ const Content = () => {
 
             <h4 className='techTit'>Technologies:</h4>
             <ul className='technologies'>
-              <li>- {personal[0].Turkey.contentInfo.projects.secondProject[4][0]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.secondProject[4][1]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.secondProject[4][2]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.secondProject[4][0]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.secondProject[4][1]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.secondProject[4][2]}</li>
             </ul>
           </div>
 
@@ -69,13 +69,13 @@ const Content = () => {
 
             <h4 className='techTit'>Technologies:</h4>
             <ul className='technologies'>
-              <li>- {personal[0].Turkey.contentInfo.projects.thirdProject[4][0]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.thirdProject[4][1]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.thirdProject[4][2]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.thirdProject[4][3]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.thirdProject[4][4]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.thirdProject[4][5]}</li>
-              <li>- {personal[0].Turkey.contentInfo.projects.thirdProject[4][6]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.thirdProject[4][0]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.thirdProject[4][1]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.thirdProject[4][2]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.thirdProject[4][3]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.thirdProject[4][4]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.thirdProject[4][5]}</li>
+              <li><i className="fa-solid fa-check"></i> {personal[0].Turkey.contentInfo.projects.thirdProject[4][6]}</li>
             </ul>
           </div>
         </div>

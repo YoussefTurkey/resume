@@ -5,6 +5,7 @@ import Header from './view/Header'
 import Sidebar from './view/Sidebar'
 import Content from './view/Content'
 import DownlaodBtn from './components/DownlaodBtn'
+import Translate from './components/Translate'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
     </Container>
 
     <DownlaodBtn />
+    <Translate />
     </>
   );
 }

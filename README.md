@@ -12,12 +12,15 @@ No latency, responsivable, simple UI.
 * SCSS
 * JS
 * JSX
+* JSON
 * Bootstrap
 * jQuery
 * React.js as framework
 * React-Bootstrap
 * Fontawesone icons
 * GoogleFonts
+* react-i18next
+* i18next-browser-languagedetector
 
 #### You can preview the website, just **[click here](https://create-resume-app.vercel.app)**
 

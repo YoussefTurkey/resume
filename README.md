@@ -21,6 +21,7 @@ No latency, responsivable, simple UI.
 * GoogleFonts
 * react-i18next
 * i18next-browser-languagedetector
+* print.js
 
 #### You can preview the website, just **[click here](https://create-resume-app.vercel.app)**
 

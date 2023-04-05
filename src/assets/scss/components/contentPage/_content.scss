@@ -2,6 +2,8 @@
     padding: 25px 15px;
     background-color: colors.$bg_color;
     font-size: 18px;
+    margin-bottom: 15px;
+    min-height: 115vh;
     position: relative;
     &::after{
         content: '';
@@ -20,7 +22,7 @@
             position: relative;
             &::after{
                 content: '';
-                width: 10%;
+                width: 5%;
                 height: 3px;
                 background-color: colors.$main_color;
                 position: absolute;
@@ -73,12 +75,10 @@
                 padding: 5px 25px;
     
                 .view{
+                    text-decoration: underline;
                     > a{
                         padding: 0 15px;
                         color: colors.$txt_color;
-                        &:hover{
-                            text-decoration: underline;
-                        }
                     }
                 }
             }

@@ -55,4 +55,16 @@
     #trans{
         display: none !important;
     }
+
+    // Arabic
+    [dir='rtl'] .header{
+        .contact{
+            padding-right: 35% !important;
+
+            p > a,
+            p > span{
+                font-size: 12px !important;
+            }
+        }
+    }
 }

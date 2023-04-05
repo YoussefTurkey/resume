@@ -2,6 +2,7 @@
     padding: 25px 15px;
     background-color: colors.$bg_color;
     font-size: 18px;
+    min-height: 115vh;
     position: relative;
     &::after{
         content: '';

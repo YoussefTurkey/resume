@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,8 +8,20 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Cairo', sans-serif;
     background-color: #ddd;
+}
+// Direction to Arabic
+[dir='rtl'] .header .contact::before{
+    right: -15px !important;
+}
+[dir='rtl'] .sidebar .cel > h2::after,
+[dir='rtl'] .sidebar .cel > ul h3::after,
+[dir='rtl'] .content .cel > h2::after{
+    right: 0 !important;
+}
+ul{
+    padding: 0 2rem;
 }
 a{
     text-decoration: none;

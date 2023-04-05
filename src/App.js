@@ -1,3 +1,6 @@
+import { useEffect } from 'react'
+import i18n from "./i18n";
+import { checkFixLang } from "./assets/js/lang";
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -8,6 +11,12 @@ import DownlaodBtn from './components/DownlaodBtn'
 import Translate from './components/Translate'
 
 function App() {
+
+  const lang = i18n.language;
+  useEffect(() => {
+    checkFixLang(lang);
+  }, [lang]);
+
   return (
     <>
     <Container>

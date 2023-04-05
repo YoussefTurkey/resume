@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import personal from "../local/en.json"
 
 const Sidebar = () => {
 
@@ -9,44 +8,44 @@ const Sidebar = () => {
     <>
       <section className='sidebar'>
         <div className="cel">
-          <h2>Education</h2>
-          <p>{t(personal.Person.sideInfo.education)}</p>
+          <h2>{t('Person.sideInfo.education.name')}</h2>
+          <p>{t('Person.sideInfo.education.desc')}</p>
         </div>
 
         <div className="cel">
-          <h2>Skills</h2>
+          <h2>{t('Person.sideInfo.techSkills.name')}</h2>
 
           <ul>
-            <h3>Technical Skills</h3>
-            <li>{personal.Person.sideInfo.techSkills[0]}, {personal.Person.sideInfo.techSkills[1]}, {personal.Person.sideInfo.techSkills[2]}, {personal.Person.sideInfo.techSkills[3]}.</li>
-            <li>{personal.Person.sideInfo.techSkills[4]}, {personal.Person.sideInfo.techSkills[5]}, {personal.Person.sideInfo.techSkills[6]}.</li>
-            <li>{personal.Person.sideInfo.techSkills[7]}, {personal.Person.sideInfo.techSkills[8]}.</li>
-            <li>{personal.Person.sideInfo.techSkills[9]}, {personal.Person.sideInfo.techSkills[10]}, {personal.Person.sideInfo.techSkills[11]}.</li>
+            <h3>{t('Person.sideInfo.techSkills.subname')}</h3>
+            <li>{t('Person.sideInfo.techSkills.skills.one')}, {t('Person.sideInfo.techSkills.skills.two')}, {t('Person.sideInfo.techSkills.skills.three')}, {t('Person.sideInfo.techSkills.skills.four')}.</li>
+            <li>{t('Person.sideInfo.techSkills.skills.five')}, {t('Person.sideInfo.techSkills.skills.six')}, {t('Person.sideInfo.techSkills.skills.seven')}.</li>
+            <li>{t('Person.sideInfo.techSkills.skills.eight')}, {t('Person.sideInfo.techSkills.skills.nine')}, {t('Person.sideInfo.techSkills.skills.ten')}.</li>
+            <li>{t('Person.sideInfo.techSkills.skills.eleven')}, {t('Person.sideInfo.techSkills.skills.tweleve')}, {t('Person.sideInfo.techSkills.skills.thirteen')}.</li>
           </ul>
 
           <ul>
-            <h3>Soft Skills</h3>
-            <li>{personal.Person.sideInfo.softSkills[0]}, {personal.Person.sideInfo.softSkills[1]}.</li>
-            <li>{personal.Person.sideInfo.softSkills[2]}, {personal.Person.sideInfo.softSkills[3]}.</li>
-            <li>{personal.Person.sideInfo.softSkills[4]}.</li>
-            <li>{personal.Person.sideInfo.softSkills[5]}, {personal.Person.sideInfo.softSkills[6]}.</li>
+            <h3>{t('Person.sideInfo.softSkills.subname')}</h3>
+            <li>{t('Person.sideInfo.softSkills.skills.one')}, {t('Person.sideInfo.softSkills.skills.two')}.</li>
+            <li>{t('Person.sideInfo.softSkills.skills.three')}, {t('Person.sideInfo.softSkills.skills.four')}.</li>
+            <li>{t('Person.sideInfo.softSkills.skills.five')}.</li>
+            <li>{t('Person.sideInfo.softSkills.skills.six')}, {t('Person.sideInfo.softSkills.skills.seven')}.</li>
           </ul>
         </div>
 
         <div className="cel cert">
-          <h2>Certificates</h2>
+          <h2>{t('Person.sideInfo.certificates.name')}</h2>
           <ul className='certificates'>
-            <li>{t(personal.Person.sideInfo.certificates[0])}</li>
-            <li>{t(personal.Person.sideInfo.certificates[1])}</li>
-            <li>{t(personal.Person.sideInfo.certificates[2])}</li>
+            <li>{t('Person.sideInfo.certificates.certs.one')}</li>
+            <li>{t('Person.sideInfo.certificates.certs.two')}</li>
+            <li>{t('Person.sideInfo.certificates.certs.three')}</li>
           </ul>
         </div>
 
         <div className="cel">
-          <h2>languages</h2>
+          <h2>{t('Person.sideInfo.languages.name')}</h2>
           <ul className='languages'>
-            <li>{t(personal.Person.sideInfo.languages[0])}</li>
-            <li>{t(personal.Person.sideInfo.languages[1])}</li>
+            <li>{t('Person.sideInfo.languages.langs.one')}</li>
+            <li>{t('Person.sideInfo.languages.langs.two')}</li>
           </ul>
         </div>
       </section>

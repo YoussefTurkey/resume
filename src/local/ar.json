@@ -1,47 +1,149 @@
 {
-    "Person" : {
-        "id": "ar",
-        "HeaderInfo" : {
-            "fullName" : "يوسف التركي",
-            "title" : "مطور المواقع الإلكترونية",
-            "phone" : "+201273451052",
-            "country" : "الإسكندرية، مصر",
-            "gmail" : "youssef.turkey11@gmail.com",
-            "socialContact" : "linkedin.com/in/youturkey11"
-        },
-        "sideInfo" : {
-            "education" : "بكالريوس علوم، جامعة الإسكندرية | 2022",
-            "techSkills" : ["HTML5", "CSS3", "JavaScript", "Scss", "Bootstrap", "MDB", "jQuery", "React.js", "Vue.js", "Photoshop", "Illustrator", "Lightroom"],
-            "softSkills" : ["عمل جماعي", "القيادة", "تواصل فعال", "طريقة عرض فعالة", "تعلم ذاتي", "تفكير ناقد", "إبداع"],
-            "certificates" : ["دبلومة في مجال علوم الحوسبة الكمية (2022)", 
-                              "تدريب في مركز المياة المصرية (2021)", 
-                              "تكملة متابعة محتوى تطوير المواقع إفتراضياً (2020)"
-                            ],
-            "languages" : ["العربية - اللغة الأم", "الإنجليزية - متوسط"]
-        },
-        "contentInfo" : {
-            "about" : "أنا شغوف جدًا لمحال تطوير الواجهة الأمامية للمواقع الإلكترونية وأحاول تعلم كل ما هو جديد عن التكنولوجيا الحديثة في هذا المجال. أحاول ربط هذا المجال بالتصميم الجرافيكي لإعطاء إحساس فني وأن أكون مميزًا.",
-            "projects" : {
-              "firstProject" : ["منصة إجتاز", 
-                                "https://youssefturkey.github.io/Egtaz-Platform/", 
-                                "https://github.com/YoussefTurkey/Egtaz-Platform",
-                                "لوحة معلومات الاختبار ، كنت مطورًا للواجهة الأمامية ومصمم جرافيك في فريق التخرج باستخدام موارد الدراسة الذاتية. (كانت الدرجة -A)",
-                                ["HTML5", "CSS3", "JavaScript", "PHP", "Laravel", "UI-kit"]],
-              "secondProject" : ["نظام إدارة المنتج", 
-                                 "https://youssefturkey.github.io/Products-Management-System/", 
-                                 "https://github.com/YoussefTurkey/Products-Management-System",
-                                 "نظام إدارة المنتج هو نظام CRUD حديث لتخزين المنتجات تم بناؤه بواسطة جافا سكريبت كلغة برمجة",
-                                 ["HTML5", "CSS3", "JavaScript"]],
-              "thirdProject" : ["سوفتي-بيتكو",
-                                "https://softy-pinko-digital.vercel.app/",
-                                "https://github.com/YoussefTurkey/softy-pinko",
-                                "سوفتي-بينكو هو تطبيق React.js مصمم لعملك أو لموقعك الإلكتروني للتسويق الرقمي. يحتوي على رأس خلفية متدرجة وردي-أرجواني جميل. يتم تضمين عناصر القسم القياسية. يتم توفير جداول التسعير لعملائك.",
-                                ["HTML5", "Scss", "JS", "React.js", "React-Bootstrap", "AOS", "Boxicons"]]
-            },
-            "reference" : [
-              ["مدير تنفيذي لشركة يوني بزنيز", "د/ أحمد طلعت", "0111 963 6461", "ahmdtal3at@gmail.com"],
-              ["مدير فريق شركة يو إس لجاليزاشن", "م/ أسماء محمود", "0122 766 7706"]
-            ]
+  "Person" : {
+      "id": "ar",
+      "HeaderInfo" : {
+          "fullName" : "يوسف التركي",
+          "title" : "مطور واجهات المواقع الإلكترونية مبتدئ",
+          "phone" : "+201273451052",
+          "country" : "الإسكندرية، مصر",
+          "gmail" : "youssef.turkey11@gmail.com",
+          "socialContact" : "linkedin.com/in/youturkey11"
+      },
+      "sideInfo" : {
+          "education" : {
+            "name" : "تعليمي",
+            "desc" : "بكالريويس علوم جامعة الإسكندرية| 2022"
+          },
+          "techSkills" : {
+            "name" : "مهاراتي",
+            "subname" : "مهاراتي التقنية",
+            "skills" : {
+              "one" : "HTML5",
+              "two" : "CSS3",
+              "three" : "JavaScript",
+              "four" : "TypeScript",
+              "five" : "Scss",
+              "six": "Bootstrap",
+              "seven" : "jQuery",
+              "eight" : "React.js",
+              "nine" : "Vue.js",
+              "ten" : "Redux",
+              "eleven" : "Photoshop",
+              "tweleve" : "Illustrator",
+              "thirteen" : "Lightroom"
+            }
+          },
+          "softSkills" : {
+            "subname" : "مهاراتي الحياتية",
+            "skills" : {
+              "one" : "متعاون",
+              "two" : "قائد",
+              "three" : "مهارة التواصل",
+              "four" : "مهارة العرض",
+              "five" : "التعلم الذاتي",
+              "six" : "التفكير النقدي",
+              "seven" : "مبدع"
+            }
+          },
+          "certificates" : {
+            "name" : "شهاداتي",
+            "certs" : {
+              "one" : "دبلومة في علوم الحوسبة الكمية (2022)",
+              "two" : "متدرب في شركة المياة بالإسكندرية (2021)",
+              "three" : "إتمام دورات تطبيق المواقع الإلكترونية الأساسية (2020)"
+            }
+          },
+          "languages" : {
+            "name" : "لغاتي",
+            "langs" : {
+              "one" : "العربية - اللغة الأم",
+              "two" : "الإنجليزية - متوسط"
+            }
           }
+      },
+      "contentInfo" : {
+          "about" : {
+            "name" : "من أنا",
+            "desc" : "أنا شغوف جدًا لمجال تطوير الواجهة الأمامية وأحاول تعلم كل ما هو جديد عن التكنولوجيا الحديثة في هذا المجال. أحاول ربط هذا المجال بالتصميم الجرافيكي لإعطاء إحساس فني وأن أكون مميزًا."
+          },
+          "projects" : {
+            "name" : "مشاريعي",
+            "firstProject" : {
+              "name" : "منصة اجتاز",
+              "live" : {
+                "name" : "مشاهدة",
+                "link" : "https://youssefturkey.github.io/Egtaz-Platform/"
+              },
+              "code" : {
+                "name" : "المشروع",
+                "link" : "https://github.com/YoussefTurkey/Egtaz-Platform"
+              },
+              "desc" : "لوحة معلومات الاختبار ، كنت مطورًا للواجهة الأمامية ومصمم جرافيك كجزء من فريق التخرج باستخدام موارد الدراسة الذاتية. (كانت الدرجة -A)",
+              "langs" : {
+                "title" : "التقنيات",
+                "one" : "HTML5",
+                "two" : "CSS3",
+                "three" : "JavaScript",
+                "four" : "PHP",
+                "five" : "Laravel",
+                "six" : "UI-kit"
+              }
+            },
+            "secondProject" : {
+              "name" : "نظام إدارة المنتجات",
+              "live" : {
+                "name" : "مشاهدة",
+                "link" : "https://youssefturkey.github.io/Products-Management-System/"
+              },
+              "code" : {
+                "name" : "المشروع",
+                "link" : "https://github.com/YoussefTurkey/Products-Management-System"
+              },
+              "desc" : "نظام إدارة المنتجات هو نظام CRUD حديث لتخزين المنتجات تم بناؤه بواسطة جافا سكريبت كلغة برمجة",
+              "langs" : {
+                "title" : "التقنيات",
+                "one" : "HTML5",
+                "two" : "CSS3",
+                "three" : "JavaScript"
+              }
+            },
+            "thirdProject" : {
+              "name" : "سوفتي-بينكو",
+              "live" : {
+                "name" : "مشاهدة",
+                "link" : "https://softy-pinko-digital.vercel.app/"
+              },
+              "code" : {
+                "name" : "المشروع",
+                "link" : "https://github.com/YoussefTurkey/softy-pinko"
+              },
+              "desc" : "سوفتي-بينكو هو تطبيق React.js مصمم لعملك أو لموقعك الإلكتروني للتسويق الرقمي. يحتوي على رأس خلفية متدرجة وردي أرجواني جميل. يتم تضمين عناصر القسم القياسية. يتم توفير جداول التسعير لعملائك.",
+              "langs" : {
+                "title" : "التقنيات",
+                "one" : "HTML5",
+                "two" : "Scss",
+                "three" : "JS",
+                "four" : "React.js",
+                "five" : "React-Bootstrap",
+                "six" : "AOS",
+                "seven" : "Boxicons"
+              }
+            }
+          },
+          "reference" : {
+            "title" : "مصادر",
+            "Uni" : {
+              "title" : "مدير تنفيذي لشركة Unibusiness",
+              "name" : "د. أحمد طلعت",
+              "phone" : "0111 963 6461",
+              "email" : "ahmdtal3at@gmail.com"
+            },
+            "US" : {
+              "title" : "قائد فريق بشركة US Legalization",
+              "name" : "م. أسماء محمود",
+              "phone" : "0122 766 7706"
+            }
+          }
+        }
+      }
     }
-}

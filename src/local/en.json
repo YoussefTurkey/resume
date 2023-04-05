@@ -1,47 +1,150 @@
 {
-    "Person" : {
-        "id": "en",
-        "HeaderInfo" : {
-            "fullName" : "Youssef Turkey",
-            "title" : "Junior Frontend Developer",
-            "phone" : "+201273451052",
-            "country" : "Alexandria, Egypt",
-            "gmail" : "youssef.turkey11@gmail.com",
-            "socialContact" : "linkedin.com/in/youturkey11"
-        },
-        "sideInfo" : {
-            "education" : "Bachelor of Science, Alexandria University | 2022",
-            "techSkills" : ["HTML5", "CSS3", "JavaScript", "Scss", "Bootstrap", "MDB", "jQuery", "React.js", "Vue.js", "Photoshop", "Illustrator", "Lightroom"],
-            "softSkills" : ["Teamwork", "Leadership", "Communication", "Presentation", "Self-learning", "Critical thinking", "Creative"],
-            "certificates" : ["Diploma of Quantum Computing & Programming (2022)", 
-                              "AWCO Training center (2021)", 
-                              "Complete HTML5 & CSS3 & JavaScript Course (2020)"
-                            ],
-            "languages" : ["Arabic - Native", "English - Elementary"]
-        },
-        "contentInfo" : {
-            "about" : "I am very passionate about Front-End Development and I am trying to learn everything new about modern technology in this field. I am trying to connect this field with Graphic Designing to give an artistic sense and be distinctive.",
-            "projects" : {
-              "firstProject" : ["Egtaz Platfom", 
-                                "https://youssefturkey.github.io/Egtaz-Platform/", 
-                                "https://github.com/YoussefTurkey/Egtaz-Platform",
-                                "Exam dashboard, I was a Front-End Developer and Graphic Designer as a part of graduation team using self-study resources. (The grade was -A)",
-                                ["HTML5", "CSS3", "JavaScript", "PHP", "Laravel", "UI-kit"]],
-              "secondProject" : ["PMS", 
-                                 "https://youssefturkey.github.io/Products-Management-System/", 
-                                 "https://github.com/YoussefTurkey/Products-Management-System",
-                                 "Product Management System is a modern CRUD system for store the products was built by javascript as programming language",
-                                 ["HTML5", "CSS3", "JavaScript"]],
-              "thirdProject" : ["softy-pinko",
-                                "https://softy-pinko-digital.vercel.app/",
-                                "https://github.com/YoussefTurkey/softy-pinko",
-                                "Softy Pinko is a react.js app designed for your business or digital marketing website. It has a beautiful pink purple gradient background header. Standard section elements are included. Pricing Tables are provided for your clients.",
-                                ["HTML5", "Scss", "JS", "React.js", "React-Bootstrap", "AOS", "Boxicons"]]
-            },
-            "reference" : [
-              ["Unibusinessg' CEO", "Dr. Ahmed Talaat", "0111 963 6461", "ahmdtal3at@gmail.com"],
-              ["US Legalization' Lead", "Eng. Asmaa Mahmoud", "0122 766 7706"]
-            ]
+  "Person" : {
+      "id": "en",
+      "HeaderInfo" : {
+          "fullName" : "Youssef Turkey",
+          "title" : "Junior Frontend Developer",
+          "phone" : "+201273451052",
+          "country" : "Alexandria, Egypt",
+          "gmail" : "youssef.turkey11@gmail.com",
+          "socialContact" : "linkedin.com/in/youturkey11"
+      },
+      "sideInfo" : {
+          "education" : {
+            "name" : "Education",
+            "desc" : "Bachelor of Science, Alexandria University | 2022"
+          },
+          "techSkills" : {
+            "name" : "Skills",
+            "subname" : "Technical Skills",
+            "skills" : {
+              "one" : "HTML5",
+              "two" : "CSS3",
+              "three" : "JavaScript",
+              "four" : "TypeScript",
+              "five" : "Scss",
+              "six": "Bootstrap",
+              "seven" : "jQuery",
+              "eight" : "React.js",
+              "nine" : "Vue.js",
+              "ten" : "Redux",
+              "eleven" : "Photoshop",
+              "tweleve" : "Illustrator",
+              "thirteen" : "Lightroom"
+            }
+          },
+          "softSkills" : {
+            "subname" : "Soft Skills",
+            "skills" : {
+              "one" : "Teamwork",
+              "two" : "Leadership",
+              "three" : "Communication",
+              "four" : "Presentation",
+              "five" : "Self-learning",
+              "six" : "Critical thinking",
+              "seven" : "Creative"
+            }
+          },
+          "certificates" : {
+            "name" : "Certificates",
+            "certs" : {
+              "one" : "Diploma of Quantum Computing & Programming (2022)",
+              "two" : "AWCO Training center (2021)",
+              "three" : "Complete HTML5 & CSS3 & JavaScript Course (2020)"
+            }
+          },
+          "languages" : {
+            "name" : "Languages",
+            "langs" : {
+              "one" : "Arabic - Native",
+              "two" : "English - Elementary"
+            }
           }
+      },
+      "contentInfo" : {
+          "about" : {
+            "name" : "About",
+            "desc" : "I am very passionate about Front-End Development and I am trying to learn everything new about modern technology in this field. I am trying to connect this field with Graphic Designing to give an artistic sense and be distinctive."
+          },
+          "projects" : {
+            "name" : "Projects",
+            "firstProject" : {
+              "name" : "Egtaz Platfom",
+              "live" : {
+                "name" : "Live Demo",
+                "link" : "https://youssefturkey.github.io/Egtaz-Platform/"
+              },
+              "code" : {
+                "name" : "Github",
+                "link" : "https://github.com/YoussefTurkey/Egtaz-Platform"
+              },
+              "desc" : "Exam dashboard, I was a Front-End Developer and Graphic Designer as a part of graduation team using self-study resources. (The grade was -A)",
+              "langs" : {
+                "title" : "Technologies",
+                "one" : "HTML5",
+                "two" : "CSS3",
+                "three" : "JavaScript",
+                "four" : "PHP",
+                "five" : "Laravel",
+                "six" : "UI-kit"
+              }
+
+            },
+            "secondProject" : {
+              "name" : "PMS",
+              "live" : {
+                "name" : "Live Demo",
+                "link" : "https://youssefturkey.github.io/Products-Management-System/"
+              },
+              "code" : {
+                "name" : "Github",
+                "link" : "https://github.com/YoussefTurkey/Products-Management-System"
+              },
+              "desc" : "Product Management System is a modern CRUD system for store the products was built by javascript as programming language",
+              "langs" : {
+                "title" : "Technologies",
+                "one" : "HTML5",
+                "two" : "CSS3",
+                "three" : "JavaScript"
+              }
+            },
+            "thirdProject" : {
+              "name" : "softy-pinko",
+              "live" : {
+                "name" : "Live Demo",
+                "link" : "https://softy-pinko-digital.vercel.app/"
+              },
+              "code" : {
+                "name" : "Github",
+                "link" : "https://github.com/YoussefTurkey/softy-pinko"
+              },
+              "desc" : "Softy Pinko is a react.js app designed for your business or digital marketing website. It has a beautiful pink purple gradient background header. Standard section elements are included. Pricing Tables are provided for your clients.",
+              "langs" : {
+                "title" : "Technologies",
+                "one" : "HTML5",
+                "two" : "Scss",
+                "three" : "JS",
+                "four" : "React.js",
+                "five" : "React-Bootstrap",
+                "six" : "AOS",
+                "seven" : "Boxicons"
+              }
+            }
+          },
+          "reference" : {
+            "title" : "Reference",
+            "Uni" : {
+              "title" : "Unibusiness' CEO",
+              "name" : "Dr. Ahmed Talaat",
+              "phone" : "0111 963 6461",
+              "email" : "ahmdtal3at@gmail.com"
+            },
+            "US" : {
+              "title" : "US Legalization' Lead",
+              "name" : "Eng. Asmaa Mahmoud",
+              "phone" : "0122 766 7706"
+            }
+          }
+        }
+      }
     }
-}
